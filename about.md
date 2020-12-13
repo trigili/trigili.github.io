@@ -4,16 +4,4 @@ title: /about
 permalink: /about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
-
+In 2019 I graduated cum laude from Penn State University with degrees in <a href="#" data-toggle="tooltip" data-original-title="Officially the now-retired *Security and Risk Analysis* with a focus in *Information and Cyber Security*">Cyber Security</a> and Information Science.

@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: jared@trigili.com:/home
+title: /home
 ---
 
 ## Hi, I'm Jared Trigili,
