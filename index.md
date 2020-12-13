@@ -5,6 +5,6 @@
 layout: home
 ---
 
-### Hi, I'm Jared Trigili.
+## Hi, I'm Jared Trigili.
 
 I'm a security analyst at the United States Department of Defense 
