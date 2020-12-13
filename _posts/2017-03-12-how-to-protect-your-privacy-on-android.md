@@ -24,9 +24,9 @@ The solution implemented by the Android developers is to allow the user to encry
 
 Instructions:
 
-    If you’re on Android 7.0 or later, your device already does this by default, as long as you have a screen lock enabled, as described in the prior step. Congratulations! You can read more about it [here](https://source.android.com/security/encryption/file-based.html).
-    If you’re on Android 6.0.1 or earlier, you’ll first want to enable a screen lock, which can be done with the prior step.
-    Next, you’ll want to head to Settings > Security, and select the option to encrypt your device. It should say something along the lines of “Encrypt phone” and/or “Encrypt SD card storage”. You can choose which you want to do. Be careful though: if you encrypt your SD card and reset your phone, sell it, trade it in, etc., your SD card will be inaccessible because the data are still encrypted with the old encryption key!
+- If you’re on Android 7.0 or later, your device already does this by default, as long as you have a screen lock enabled, as described in the prior step. Congratulations! You can read more about it [here](https://source.android.com/security/encryption/file-based.html).
+- If you’re on Android 6.0.1 or earlier, you’ll first want to enable a screen lock, which can be done with the prior step.
+- Next, you’ll want to head to Settings > Security, and select the option to encrypt your device. It should say something along the lines of “Encrypt phone” and/or “Encrypt SD card storage”. You can choose which you want to do. Be careful though: if you encrypt your SD card and reset your phone, sell it, trade it in, etc., your SD card will be inaccessible because the data are still encrypted with the old encryption key!
 
 Note: you can see what version of Android you have by following this [quick guide](https://support.google.com/pixelphone/answer/4457705). It was written for the Google Pixel, but should work for most Android devices.
 
@@ -36,9 +36,9 @@ Before Android 5.0, no notifications were shown on the lock screen whatsoever. A
 
 Instructions:
 
-    As with Step 2, you’ll first want to enable a screen lock on your device.
-    After that, go to Settings > Sound & Notification. At this point, you’ll be able to choose between “Show all notification content,” “Hide sensitive notification content,” and “Don’t show notifications at all”.
-    If you choose the second option, you also get to choose which of your apps are considered sensitive! All are by default, but if there’s an app whose information you do want visible on the lock screen, you can go to Settings > Apps > [An app of your choosing] > Notifications, and you can choose your desired settings.
+- As with Step 2, you’ll first want to enable a screen lock on your device.
+- After that, go to Settings > Sound & Notification. At this point, you’ll be able to choose between “Show all notification content,” “Hide sensitive notification content,” and “Don’t show notifications at all”.
+- If you choose the second option, you also get to choose which of your apps are considered sensitive! All are by default, but if there’s an app whose information you do want visible on the lock screen, you can go to Settings > Apps > [An app of your choosing] > Notifications, and you can choose your desired settings.
 
 ## 4. Turn off “Share My Location.”
 
@@ -50,8 +50,8 @@ In the Android 4.0 beta, a hidden feature known as “AppOps” was present, whi
 
 Instructions:
 
-    If you have a version of Android including or after 4.3 and before 5.1, use [AppOps on the Google Play Store](https://play.google.com/store/apps/details?id=com.findsdk.apppermission&hl=en) to disable location settings for individual apps
-    If you have Android 6.0 or later, you can do this without a third-party app, as the functionality was returned as an official feature with the release of 6.0. Though the specifics may vary from device to device, the general idea is to go to Settings > Apps > Permissions > [An app of your choosing] > Permissions > Whatever permissions you want to disable – “Location” in this particular case
+- If you have a version of Android including or after 4.3 and before 5.1, use [AppOps on the Google Play Store](https://play.google.com/store/apps/details?id=com.findsdk.apppermission&hl=en) to disable location settings for individual apps
+- If you have Android 6.0 or later, you can do this without a third-party app, as the functionality was returned as an official feature with the release of 6.0. Though the specifics may vary from device to device, the general idea is to go to Settings > Apps > Permissions > [An app of your choosing] > Permissions > Whatever permissions you want to disable – “Location” in this particular case
 
 Note: If you want a list of apps that have requested your location in the past as a reference, you can go to Settings > Location, where you should see a list of apps that have made these requests.
 
@@ -65,7 +65,7 @@ It never hurts to go through your installed apps once in a while and uninstall t
 
 Instructions:
 
-    Settings > Apps > [An app of your choosing] > Uninstall
+- Settings > Apps > [An app of your choosing] > Uninstall
 
 ## 8. Turn off read receipts so people are not notified when you see their messages.
 
@@ -75,7 +75,7 @@ Instructions:
 
 Though the particular steps once again vary depending on your version of Android and the manufacturer of your device, this is the general idea of where you want to go:
 
-    Messaging app > Menu (may be shown as three dots) > Settings > Messages/Text Messages/Multimedia Messages (may be under “advanced”, “more”, etc.) > Allow read reports/Allow delivery reports
+- Messaging app > Menu (may be shown as three dots) > Settings > Messages/Text Messages/Multimedia Messages (may be under “advanced”, “more”, etc.) > Allow read reports/Allow delivery reports
 
 ## 9. Turn on “Limit ad tracking”.
 
