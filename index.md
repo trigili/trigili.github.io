@@ -4,4 +4,6 @@
 
 layout: home
 ---
-test
+###Hi, I'm Jared Trigili.
+
+I'm a security analyst at the United States Department of Defense 
