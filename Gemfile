@@ -33,3 +33,4 @@ gem "jekyll-theme-console"
 source 'https://rubygems.org'
 gem 'github-pages'
 gem 'rdiscount'
+gem 'jekyll-seo-tag'

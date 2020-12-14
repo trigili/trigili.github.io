@@ -264,6 +264,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.12)
+  jekyll-seo-tag
   jekyll-theme-console
   rdiscount
   tzinfo (~> 1.2)
