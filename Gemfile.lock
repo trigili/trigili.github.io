@@ -265,7 +265,6 @@ DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.12)
   jekyll-theme-console
-  minima (~> 2.5)
   rdiscount
   tzinfo (~> 1.2)
   tzinfo-data
