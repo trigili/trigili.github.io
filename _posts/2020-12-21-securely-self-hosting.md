@@ -10,7 +10,7 @@ I'm using [Github Pages](https://pages.github.com/) to host this site for a few 
  - I don't want to expose my home network any more than I have to
  - It's about time I learned how Git works
  
-Admittedly, however, I *am* hosting a few basic websites from my server in my home network what I would otherwise have to pay for a VPS instance to host, and I don't take saying I believe I found the most secure way of doing so lightly. It's nothing complicated, but it helps me sleep better at night.
+Admittedly, however, I *am* hosting a few unrelated basic websites from my server in my home network. After some trial and error I made a setup secure enough for me to feel confident in keeping it running. It's nothing too complicated, but it helps me sleep better at night.
 <br>
 ## 1. Cloudflare
 
@@ -41,6 +41,7 @@ This too is pretty simple. In pfSense, I simply create an alias with Cloudflare'
 <br>
 Without this configuration, in theory, if someone suspected both my public IP address and a domain I'm hosting, they could configure their hosts file to point my domain directly to my IP address. Nginx wouldn't know any different and would serve the website, thus revealing to the adversary that that is, in fact, my IP. This may be a bit of a stretch; the real practical reason for doing this is that I want to end a connection that I want nothing to do with as far away from my actual devices as possible, and it doesn't get much further than my public-facing firewall.
 <br>
+It could be argued that this makes the Nginx setup moot, but hey, isn't that a sign of good defense in depth?
 ## Conclusion
 
 At the end of the day, the most secure way to host for my home network will be to rent a cheap Vultr or Linode VPS. However, when I have the hardware, the patience for sysadmin-ing, and plenty of quarantine time to put it all together, it's worth it to me to save a few bucks and self-host with plenty of security precautions.

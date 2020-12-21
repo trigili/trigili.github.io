@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a pfSense Router"
 date:   2017-04-24
-categories: android privacy
+categories: guide pfsense
 ---
 ## Building a pfSense Router
 *Dec 2020 Update: I've been moving my old blog posts that I wrote during undergrad to my new website since they were getting a fair amount of traffic. I quickly regretted my decision to purchase a cheap SSD since it, unsurprisingly, died rather quickly. Fortunately, I keep frequent config backups. Otherwise, this router still does great and can handle any CPU and memory-intensive task I throw at it, such as Snort or Suricata. I've also found Squid to be largely useless with most traffic being encrypted.*  
