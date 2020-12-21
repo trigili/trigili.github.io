@@ -16,7 +16,7 @@ and I'm a cybersecurity analyst for the US Department of Defense. I'm enthusiast
 
 <!---
 <ul>    
-{% for post in site.posts limit: 5 %}
+{% for post in site.posts limit: 3 %}
     <li>
         {%- assign date_format = "%Y-%m-%d" -%}
         [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>

@@ -27,6 +27,9 @@ url: "https://trigili.com" # the base hostname & protocol for your site, e.g. ht
 # github_username:  jekyll
 permalink: /:year/:month/:day/:title.html
 
+kramdown:
+  parse_block_html: true
+
 header_pages:
     - index.md
     - about.md
